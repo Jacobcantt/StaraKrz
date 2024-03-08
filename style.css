@@ -19,6 +19,12 @@ padding: 10px;
 text-align: center;
 }
 
+.hop {
+color: #0000FF;
+padding: 30px;
+text-align: center;
+}
+
 a {
 color: #6b1d1d;
 font-size: 18px;
