@@ -25,14 +25,17 @@ body::before {
 }
 
 .container {
-    position: relative; /* Ustawienie treści nad przyciemnieniem */
+    position: relative;
     z-index: 2;
-    max-width: 600px;
-    background: rgba(0, 0, 0, 0.7); /* Przezroczyste tło dla treści */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 800px; /* Zwiększ szerokość */
+    width: 90%; /* Dynamiczne dopasowanie do mniejszych ekranów */
+    background: rgba(0, 0, 0, 0.7); /* Przezroczyste tło */
+    padding: 40px; /* Większe odstępy wewnętrzne */
+    border-radius: 20px; /* Zaokrąglenie krawędzi */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Wyraźniejszy cień */
+    text-align: center; /* Centrowanie tekstu */
 }
+
 
 h1 {
     color: #ff46cb;
