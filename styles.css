@@ -32,7 +32,7 @@ body::before {
     background: rgba(0, 0, 0, 0.7); /* Przezroczyste tło */
     padding: 40px; /* Większe odstępy wewnętrzne */
     border-radius: 20px; /* Zaokrąglenie krawędzi */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Wyraźniejszy cień */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7); /* Wyraźniejszy cień */
     text-align: center; /* Centrowanie tekstu */
 }
 
